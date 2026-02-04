@@ -704,6 +704,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1401248410116281547, guid: 6b50990cdf2365d448f99432c580ab10, type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 7133159440253081576, guid: b68dbe63a96398e4d9b5b7cb67ba9101, type: 3}
+    - target: {fileID: 1401248410116281547, guid: 6b50990cdf2365d448f99432c580ab10, type: 3}
+      propertyPath: kitchenObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 0c7180ab4af55e444830bf90a6528aed, type: 2}
     - target: {fileID: 7718992404047552420, guid: 6b50990cdf2365d448f99432c580ab10, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.484
@@ -761,6 +769,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1401248410116281547, guid: 6b50990cdf2365d448f99432c580ab10, type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 7133159440253081576, guid: de55508ed19b92e4d94cead7626ec511, type: 3}
+    - target: {fileID: 1401248410116281547, guid: 6b50990cdf2365d448f99432c580ab10, type: 3}
+      propertyPath: kitchenObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 2f1ae9c4fa3776a489c190246b02385d, type: 2}
     - target: {fileID: 7718992404047552420, guid: 6b50990cdf2365d448f99432c580ab10, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.000011165258
