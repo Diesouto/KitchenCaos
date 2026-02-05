@@ -1,11 +1,8 @@
-using System;
 using UnityEngine;
 
-public class ContainerCounter : BaseCounter
+public class CuttingCounter : BaseCounter
 {
-    public event EventHandler OnPlayerGrabbedObject;
-
-    [SerializeField] KitchenObjectSO kitchenObjectSO;
+    [SerializeField] private KitchenObjectSO cutKitchenObjectSO;
 
     public override void Interact(Player player)
     {
@@ -39,12 +36,12 @@ public class ContainerCounter : BaseCounter
 
     public override void InteractAlternate(Player player)
     {
-        // Si el jugador no tiene nada en las manos y la caja no tiene nada encima
-        if (!player.HasKitchenObject() && !HasKitchenObject())
+        if (HasKitchenObject())
         {
-            // El jugador agarra el objeto de la caja
-            KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);
-            OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
+            GetKitchenObject().DestroySelf();
+
+            KitchenObject.SpawnKitchenObject(cutKitchenObjectSO, this);
         }
     }
 }
+
