@@ -54,7 +54,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 91e8fe3de9249fc44b7bdd8050062896, type: 3}
     - target: {fileID: 3634440373568201454, guid: 53e6a0a7332b6bb468dcca4973cb0158, type: 3}
       propertyPath: m_Name
-      value: ContainerCounterTomato
+      value: ContainerCounter_Tomato
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605565138717026910, guid: 53e6a0a7332b6bb468dcca4973cb0158, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 8671556435726569735, guid: 53e6a0a7332b6bb468dcca4973cb0158, type: 3}
       propertyPath: kitchenObjectSO
