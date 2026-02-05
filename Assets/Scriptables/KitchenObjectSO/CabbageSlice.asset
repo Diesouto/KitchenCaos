@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KitchenObjectSO
   prefab: {fileID: 7133159440253081576, guid: 5a90b56093ed7354d997847690ebf2c8, type: 3}
   sprite: {fileID: 21300000, guid: bee24f07c57157e45a946eed3bfe8b84, type: 3}
-  objectName: CabbageSlice
+  objectName: Cabbage Slice
