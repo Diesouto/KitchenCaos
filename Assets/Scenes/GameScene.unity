@@ -633,7 +633,7 @@ PrefabInstance:
     - target: {fileID: 7452141322577124621, guid: 82969651811777b43a0f1d08f01741f2, type: 3}
       propertyPath: cutKitchenObjectSO
       value: 
-      objectReference: {fileID: 11400000, guid: 689c4734fe352334582305d31e99059f, type: 2}
+      objectReference: {fileID: 11400000, guid: 2c42fdfa0ad437144a58cac0e7ed781d, type: 2}
     - target: {fileID: 7815172302314953852, guid: 82969651811777b43a0f1d08f01741f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.5
