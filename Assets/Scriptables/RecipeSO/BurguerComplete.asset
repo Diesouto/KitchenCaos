@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: BurguerComplete
   m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
   kitchenObjectSOList:
-  - {fileID: 11400000, guid: 8b8da23b0a782e149a9e47d681cba542, type: 2}
   - {fileID: 11400000, guid: 03cd2fef560cad44b97e5f7fb3c80013, type: 2}
+  - {fileID: 11400000, guid: 8b8da23b0a782e149a9e47d681cba542, type: 2}
   - {fileID: 11400000, guid: 66ab97fbaa9be8242ade3279f236d980, type: 2}
-  - {fileID: 11400000, guid: 2c42fdfa0ad437144a58cac0e7ed781d, type: 2}
   - {fileID: 11400000, guid: 69a9b63d4300b72499c9872f1daae31e, type: 2}
+  - {fileID: 11400000, guid: 2c42fdfa0ad437144a58cac0e7ed781d, type: 2}
   recipeName: Burguer
