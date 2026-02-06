@@ -6,6 +6,8 @@ public class DeliveryManager : MonoBehaviour
 {
     public event EventHandler OnRecipeSpawned;
     public event EventHandler OnRecipeCompleted;
+    public event EventHandler OnRecipeFailed;
+    public event EventHandler OnRecipeSuccess;
 
     public static DeliveryManager Instance { get; private set; }
 
@@ -86,6 +88,7 @@ public class DeliveryManager : MonoBehaviour
                 Debug.Log("Entrega correcta");
                 waitingRecipeSOList.RemoveAt(i);
                 OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
+                OnRecipeSuccess?.Invoke(this, EventArgs.Empty);
                 return;
             }
         }
@@ -93,6 +96,7 @@ public class DeliveryManager : MonoBehaviour
         // No se encontró la receta
         // El jugador entregó un plato incorrecto
         Debug.Log("Entrega incorrecta");
+        OnRecipeFailed?.Invoke(this, EventArgs.Empty);
     }
 
     public List<RecipeSO> GetWaitingRecipeSOList()
