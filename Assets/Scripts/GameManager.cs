@@ -7,6 +7,11 @@ public class GameManager : MonoBehaviour
 
     public event EventHandler OnStateChanged;
 
+    [Header("Timers")]
+    [SerializeField] float waitingToStartTimer = 1f;
+    [SerializeField] float countdownToStartTimer = 3f;
+    [SerializeField] float gamePlayingTimerMax = 10f;
+
     enum State
     {
         WaitingToStart,
@@ -16,10 +21,7 @@ public class GameManager : MonoBehaviour
     }
 
     State state;
-    float waitingToStartTimer = 1f;
-    float countdownToStartTimer = 3f;
     float gamePlayingTimer;
-    float gamePlayingTimerMax = 10f;
 
     private void Awake()
     {

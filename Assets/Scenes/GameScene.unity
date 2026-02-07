@@ -2379,6 +2379,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776c74503edd0bd4081a8d721c5a8992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  waitingToStartTimer: 1
+  countdownToStartTimer: 3
+  gamePlayingTimerMax: 10
 --- !u!1 &1189480380
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,7 +2815,7 @@ GameObject:
   - component: {fileID: 1310397028}
   - component: {fileID: 1310397027}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
