@@ -5,6 +5,11 @@ public class TrashCounter : BaseCounter
 {
     public static event EventHandler OnAnyObjectTrashed;
 
+    new public static void ResetStaticData()
+    {
+        OnAnyObjectTrashed = null;
+    }
+
     public override void Interact(Player player)
     {
         // Si player tiene un objeto de cocina, destrúyelo
